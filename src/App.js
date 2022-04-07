@@ -12,7 +12,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
   border: none;
-  background-color: black;
+  background-color: blue;
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
@@ -91,7 +91,7 @@ export const StyledImg = styled.img`
 
 export const StyledLink = styled.a`
   color: grey;
-  text-decoration: none;
+  text-decoration: line;
 `;
 
 function App() {
@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! Go visit opensea.io to view it`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -282,9 +282,11 @@ function App() {
                   You can still find {CONFIG.NFT_NAME} on
                 </s.TextDescription>
                 <s.SpacerSmall />
+              <StyledButton>
                 <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
                   {CONFIG.MARKETPLACE}
                 </StyledLink>
+              </StyledButton>
               </>
             ) : (
               <>
