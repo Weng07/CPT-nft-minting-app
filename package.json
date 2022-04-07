@@ -17,7 +17,7 @@
     "web3-eth-contract": "^1.5.2",
     "yarn": "^1.22.18"
   },
-  "author": "Ali Solanki, Daniel Eugene Botha",
+  "author": "Weng CPT, Ali Solanki, Daniel Eugene Botha",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
