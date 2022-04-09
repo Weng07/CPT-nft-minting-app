@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0xeed01B7CD3785eeDD3792882af72Be7F168d1331",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xeed01B7CD3785eeDD3792882af72Be7F168d1331",
+  "CONTRACT_ADDRESS": "0x2fe5d22e07b2c1a9a01ef7124bf9a8a468a72358",
+  "SCAN_LINK": "https://polygonscan.com/address/0x2fe5d22e07b2c1a9a01ef7124bf9a8a468a72358",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
-    "ID": 4
+    "ID": 137
   },
   "NFT_NAME": "CreeptoThumbs",
   "SYMBOL": "CPT",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.5,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/test-h0nckv5wnn",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/creeptothumbs",
   "SHOW_BACKGROUND": false
 }
