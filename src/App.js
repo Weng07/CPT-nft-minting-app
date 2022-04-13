@@ -269,24 +269,24 @@ function App() {
               </StyledButton> */}
             </span>
             <s.SpacerSmall />
-            {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
+            {Number(data.totalSupply) != CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "grey" }}
                 >
-                  The sale has ended.
+                  Minting has been paused.
                 </s.TextTitle>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "grey" }}
                 >
-                  You can still find {CONFIG.NFT_NAME} on
+                  {/* You can still find {CONFIG.NFT_NAME} on */}
                 </s.TextDescription>
                 <s.SpacerSmall />
-              <StyledButton>
+              {/* <StyledButton>
                 <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
                   {CONFIG.MARKETPLACE}
                 </StyledLink>
-              </StyledButton>
+              </StyledButton> */}
               </>
             ) : (
               <>
